@@ -1,0 +1,152 @@
+body {
+    background-color: rgb(253, 253, 253);
+    font-family: Nizar Cocon Kurdish;
+}
+
+#logo {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 0;
+}
+
+#label_wel {
+    text-align: center;
+    margin-left: 400px;
+    margin-top: 410px;
+    font-size: 50px;
+    font-family: Nizar Cocon Kurdish;
+    color: black;
+}
+
+.header {
+    background-color: rgb(182, 46, 73);
+    overflow: hidden;
+    padding-left: 100px;
+    margin-top: 50px;
+}
+
+a {
+    text-align: center;
+    padding: 5px 5px;
+    font-size: 30px;
+    float: left;
+    color: white;
+    margin: 2px;
+    padding-left: 24px;
+    text-decoration: none;
+}
+
+#instructions {
+    width: 600px;
+    border-style: solid;
+    border-width: thick;
+    border-color: rgb(182, 46, 73);
+    border-radius: 15px;
+    padding: 10px;
+    margin: 20px;
+}
+
+#div2 {
+    width: 600px;
+    border-style: solid;
+    border-width: thick;
+    border-color: rgb(182, 46, 73);
+    border-radius: 25px;
+    padding: 10px;
+    margin: 20px;
+    float: right;
+}
+
+#div3 {
+    width: 1000px;
+    border-style: solid;
+    border-width: thick;
+    border-color: rgb(182, 46, 73);
+    border-radius: 15px;
+    padding: 10px;
+    margin: 20px;
+    float: left;
+    margin-bottom: 70px;
+    margin-left: 20px;
+    height: 200px;
+}
+
+#footer {
+    width: 100%;
+    position: relative;
+    background-color: rgb(182, 46, 73);
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    left: 0;
+    margin-top: 500px;
+}
+.header
+{
+    overflow: hidden;
+    background-color: rgb(182, 46, 73);
+}
+.header a
+{
+    float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.course_list
+{
+    float: left;
+  overflow: hidden;
+}
+.course_list .course_btn
+{
+    font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+.header a:hover,.course_list:hover .course_btn
+{
+    background-color:rgba(56, 53, 53, 0.2);
+}
+.navbar
+{
+display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.navbar a 
+{
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.navbar a:hover
+{
+    background-color: rgb(182, 46, 73);
+} 
+.course_list:hover  .navbar 
+{
+    display: block;
+}
+#label_wel
+{
+    text-align: center;
+    margin-left: 400px;
+     margin-top: 410px;
+      font-size: 50px;
+       font-family:Nizar Cocon Kurdish;
+       color: black;
+}

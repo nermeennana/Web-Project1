@@ -1,0 +1,252 @@
+body
+{
+    background-color: rgb(253, 253, 253);
+    font-family:Nizar Cocon Kurdish;
+}
+form
+{
+    position:inherit;
+    border:10px solid rgb(196, 182, 182);
+    padding: 10px;
+    margin: 100px 100px 100px 550px;
+    width:570px;
+    height: 640px;
+    background-color:rgb(182, 46, 73);
+    border-radius: 70px;
+    font-family:Nizar Cocon Kurdish;
+}
+h1
+{
+    position: relative;
+    padding: 0px 0px 0px 200px;
+    margin-top: 20px;
+    margin-left: 30px;
+    color:rgb(196, 182, 182);
+}
+#updataDiv{
+    position: center;
+}
+label{
+    color: white;
+    font-family:Nizar Cocon Kurdish ;
+    text-align: left;
+    padding-left: 90px;
+    margin-left: 10px;
+    font-size: 25px;
+}
+option
+{
+    position: relative;
+    background-color: rgb(196, 182, 182);
+    font-size: 17px;
+    margin-left:80px ;
+    text-shadow: 10px;
+}
+
+#S_Name
+{
+    position: relative;
+    background-color: rgb(196, 182, 182);
+    font-size: 17px;
+    margin-left:100px ;
+}
+#S_Uni
+{
+    position: relative;
+    background-color: rgb(196, 182, 182);
+    font-size: 17px;
+    margin-left:55px ;
+}
+#S_Date
+{
+    position: relative;
+    background-color: rgb(196, 182, 182);
+    font-size: 17px;
+    margin-left:60px ;
+    width:186px ;
+}
+#S_ID
+{
+    position: relative;
+    background-color: rgb(196, 182, 182);
+    font-size: 17px;
+    margin-left:135px ;
+}
+input
+{
+    position: relative;
+    background-color: rgb(196, 182, 182);
+    font-size: 15px;
+    margin-left:85px ;
+    font-family:Nizar Cocon Kurdish;
+}
+#m
+{
+    font-size: 20px;
+    padding: auto;
+    color: black;
+    margin-left:-80px ;
+}
+#dept_Select
+{
+    position: relative;
+    background-color: rgb(196, 182, 182);
+    font-size: 20px;
+    margin-left:28px ;
+    width:125px;
+    height: 26px;
+    font-family:Nizar Cocon Kurdish;
+    color: rgb(81, 66, 66);
+    text-align: left;
+}
+#course_Select
+{
+    position: relative;
+    background-color: rgb(196, 182, 182);
+    font-size: 20px;
+    margin-left:82px ;
+    width:180px ;
+    height: 26px;
+    font-family:Nizar Cocon Kurdish;
+    color:rgb(81, 66, 66);
+    text-align: left;
+}
+#level_Select
+{
+    position: relative;
+    background-color: rgb(196, 182, 182);
+    font-size: 20px;
+    margin-left:110px ;
+    width:125px;
+    height: 26px;
+    font-family:Nizar Cocon Kurdish;
+    color: rgb(81, 66, 66);
+    text-align: left;
+}
+
+#update_Button,#delete_Button
+{
+    position: relative;
+    background-color: rgb(196, 182, 182);
+    font-size: 30px;
+    margin-left:210px ;
+    width:152px;
+    height: 42px;
+    font-family:Nizar Cocon Kurdish;
+    color: rgb(182, 46, 73);
+    text-align: center;
+    border-radius: 15px;
+    margin: 5px;
+}
+#update_Button:hover,#delete_Button:hover{
+    background-color: white;
+}
+#update_Button
+{
+    margin-left:140px ;
+}
+#status_Select
+{
+    position: relative;
+    background-color: rgb(196, 182, 182);
+    font-size: 20px;
+    margin-left:98px ;
+    width:125px;
+    height: 26px;
+    font-family:Nizar Cocon Kurdish;
+    color: rgb(81, 66, 66);
+    text-align: left;
+}
+#label_wel
+{
+    text-align: center;
+    margin-left: 400px;
+     margin-top: 410px;
+      font-size: 50px;
+       font-family:Nizar Cocon Kurdish;
+       color: black;
+}
+#checkid
+{
+    position: relative;
+    color: black;
+    font-size: 17px;
+    margin-left: 170px;
+    display: none;
+}
+#checkname
+{
+    position: relative;
+    color: black;
+    font-size: 17px;
+    margin-left: 170px;
+    display: none;
+}
+#checkdate
+{
+    position: relative;
+    color: black;
+    font-size: 17px;
+    margin-left: 170px;
+    display: none;
+}
+#checkuni
+{
+    position: relative;
+    color: black;
+    font-size: 17px;
+    margin-left: 170px;
+    display: none;
+}
+#checkcourse
+{
+    position: relative;
+    color: black;
+    font-size: 17px;
+    margin-left: 170px;
+    display: none;
+}
+#checklevel
+{
+    position: relative;
+    color: black;
+    font-size: 17px;
+    margin-left: 170px;
+    display: none;
+}
+#checkstate
+{
+    position: relative;
+    color: black;
+    font-size: 17px;
+    margin-left: 170px;
+    display: none;
+}
+#checkdept
+{
+    position: relative;
+    color: black;
+    font-size: 17px;
+    margin-left: 170px;
+    display: none;
+}
+#course1
+{
+    display: none;
+}
+#course2
+{
+    display: none;
+}
+#course3
+{
+    display: none;
+}
+#course4
+{
+    display: none;
+}
+#course5
+{
+    display: none;
+}

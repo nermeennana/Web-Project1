@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<!-- saved from url=(0081)file:///E:/Hana_unverisity/Materal_Tem2_2/WEB/Project/NewFiles/Registeration.html -->
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        
+        <meta name="description" content="Higher Studies">
+        <title> Courses Registeration  </title>
+        <link rel = "StyleSheet" href ="CSSFils/ProjectCssRegisteration.css"/>
+        <script src = "JavaScriptFiles/JavaScriptRegCourse.js"></script>
+    </head>
+    <body> 
+        <div  >
+            <img id="logo" src="SourceFiles/Home Page_files/logo.jpg"width="100px"  height="100px" Align="right" 
+            style="margin-bottom: 0;"/>
+              <label id="label_wel"style=" ">Welcome To FCI Higher Studies Website  </label>
+          </div>
+          <div id="header"style="background-color: rgb(182, 46, 73); overflow: hidden; padding-left: 100px; margin-top:50px; ">
+            <a style="text-align: center;padding:10px 10px;font-size: 30px; float: left; color: white; margin: 10px;padding-left: 240px;
+             text-decoration: none;" 
+            href="Home Page.html">Home Page</a>
+    
+            <a style="text-align: center;padding:10px 10px;font-size: 30px;; float:left; color: white; margin: 10px ;text-decoration: none;display: block" 
+            href="StudentRegister.html">Student    </a>
+    
+            <a style="text-align: center;padding:10px 10px;font-size: 30px; float:left; color: white; margin: 10px ;text-decoration: none; " 
+            href="Addcourse.html">Add </a>
+    
+            <a style="text-align: center;padding:10px 10px;font-size: 30px; float:left; color: white; margin: 10px ;text-decoration: none; 
+          " 
+            href="Search.html">Search </a>
+            <a style="text-align: center;padding:10px 10px;font-size: 30px; float:left; color: white; margin: 10px ;text-decoration: none; 
+          " 
+            href="EditPage.html">Edit </a>
+            <a style="text-align: center;padding:10px 10px;font-size: 30px; float: left; color: white; text-decoration: none;;margin: 10px"
+             href="Courses Registeration.html">Register Courses</a>
+             <a style="text-align: center;padding:10px 10px;font-size: 30px; float: left; text-decoration: none;color: white; margin: 10px "
+             href="About.html">About </a>
+             <a style="text-align: center;padding:10px 10px;font-size: 30px; float: left; text-decoration: none;color: white; margin: 10px "
+             href="MainPage.html">Sections </a>
+          
+        </div> 
+        <form > 
+        <h1> <center>Student's Courses Registeration </center> </h1>
+        <br>
+        <label>Student's ID</label>
+            <input type="number" value="20200001" id="S_ID" readonly="">
+            <br> 
+            <br>
+        <label>Student's Name </label>
+        <input type="text" value="Student 1" id="S_Name" readonly=""> 
+        <br>
+        <br>
+       <label>Your First Course </label>
+          <select id="course_Select1" onchange="value1();">
+            <option value="1">------Choose------</option>
+                    <option value="1">Software Engineering-1</option>
+                    <option value="2">Database Systems-1</option>
+                    <option value="3">Web Technology</option>
+                    <option value="4">Data Structures</option>
+                    <option value="5">Discrete Mathematics</option>
+                </select> 
+            <br> <br>
+
+                <label>Your Second Course </label>
+                <select id="course_Select2" onchange="value2();">
+                    <option value="1">------Choose------</option>
+                    <option value="1">Software Engineering-1</option>
+                    <option value="2">Database Systems-1</option>
+                    <option value="3">Web Technology</option>
+                    <option value="4">Data Structures</option>
+                    <option value="5">Discrete Mathematics</option>
+                </select> 
+           
+            <br> <br>
+         
+               <label>Your Third Course </label>
+                  <select id="course_Select3" onchange="value3();">
+                    <option value="1">------Choose------</option>
+                    <option value="1">Software Engineering-1</option>
+                    <option value="2">Database Systems-1</option>
+                    <option value="3">Web Technology</option>
+                    <option value="4">Data Structures</option>
+                    <option value="5">Discrete Mathematics</option>
+                </select>
+           
+            <br>
+            <br>
+            <input type="Submit" id="register_Button" value="Register" onclick="check();" >
+
+        </form>
+
+        <div id="footer" >
+            <p style="color: white;font-size:20px;">
+                Address: 5 Dr Ahmed Zewail Street, Postal Code 12613, Orman, Giza, Egypt.<br>
+                If you have any questions,Mail us at e-com adminfci-cu.edu.eg.<br>
+                Facebook:fci@facebook.com<br>
+                Maintained by e-com adminfci-cu.edu.eg.
+
+            </p>
+        </div>
+    
+</body>
+</html>

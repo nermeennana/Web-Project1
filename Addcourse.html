@@ -1,0 +1,112 @@
+
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+    <title>Add Page</title>
+    <link rel="stylesheet" href="CSSFils/ProjectCssAddcourse.css"/>
+    <script src="JavaScriptFiles/JavaScriptAddcourse.js"></script>
+</head>
+<body>
+    <div  >
+        <img id="logo" src="SourceFiles/Home Page_files/logo.jpg"width="100px"  height="100px" Align="right" 
+        style="margin-bottom: 0;"/>
+          <label id="label_wel"style=" ">Welcome To FCI Higher Studies Website  </label>
+      </div>
+      <div id="header"style="background-color: rgb(182, 46, 73); overflow: hidden; padding-left: 100px; margin-top:50px; ">
+        <a style="text-align: center;padding:10px 10px;font-size: 30px; float: left; color: white; margin: 10px;padding-left: 240px;
+         text-decoration: none;" 
+        href="Home Page.html">Home Page</a>
+
+        <a style="text-align: center;padding:10px 10px;font-size: 30px;; float:left; color: white; margin: 10px ;text-decoration: none;display: block" 
+        href="StudentRegister.html">Student    </a>
+
+        <a style="text-align: center;padding:10px 10px;font-size: 30px; float:left; color: white; margin: 10px ;text-decoration: none; " 
+        href="Addcourse.html">Add </a>
+
+        <a style="text-align: center;padding:10px 10px;font-size: 30px; float:left; color: white; margin: 10px ;text-decoration: none; 
+      " 
+        href="Search.html">Search </a>
+        <a style="text-align: center;padding:10px 10px;font-size: 30px; float:left; color: white; margin: 10px ;text-decoration: none; 
+      " 
+        href="EditPage.html">Edit </a>
+        <a style="text-align: center;padding:10px 10px;font-size: 30px; float: left; color: white; text-decoration: none;;margin: 10px"
+         href="Courses Registeration.html">Register Courses</a>
+         <a style="text-align: center;padding:10px 10px;font-size: 30px; float: left; text-decoration: none;color: white; margin: 10px "
+         href="About.html">About </a>
+         <a style="text-align: center;padding:10px 10px;font-size: 30px; float: left; text-decoration: none;color: white; margin: 10px "
+         href="MainPage.html">Sections </a>
+      
+    </div> 
+    <div id="updateDiv" width="100px" height="150px">
+        <form id="updateForm">
+            <h1> Add Course </h1>
+            <!--<label id="S_ID">20201213 </label><br/>-->
+            <label>ID  </label>
+            <input type="text" placeholder="" id="S_ID" value=" "><br>
+            <br>
+            <label>Name  </label>
+            <input type="text" placeholder="" id="S_Name" value=" "><br>
+            <br>
+            <label>BirthDate  </label>
+                <input type="date" placeholder="" id="S_Date" value="02-20-2022 "><br>
+                <br>
+                <label>Gender  </label>
+                 <input type="radio" id="male" name="state" value="Male">
+                 <label for="male" id="m">Male</label>  
+                 <input type="radio" id="female" name="state" value="Female">
+                 <label for="male" id="m">Female</label>  <br>  
+                 <br>
+            <label>University  </label>
+            <input type="text" placeholder="" id="S_Uni" value=" "><br>
+            <br>
+            <br>
+            <label>Departement  </label>
+            <select id="dept_Select">
+                <option value="">--Choose--</option>
+                <option value="CS">CS</option>
+                <option value="IS">IS</option>
+                <option value="IT">IT</option>
+                <option value="AI">AI</option>
+                <option value="DS">DS</option>
+                <option value="None">None</option>
+        </select>
+        <br><br>
+        </select>
+        <label>Status  </label>
+            <select id="status_Select">
+                <option value=""> &nbsp;&nbsp;--Choose-- </option>
+                <option value="active">Active</option>
+                <option value="inactive">Inactive</option>
+            </select>
+            
+            <br>
+        <br>
+        <label>Course ID  </label>
+        <input type="text" placeholder="" id="c_ID" value=" "><br>
+        <br>
+        <label>Course Name  </label>
+            <select id="c_Name">
+                <option value="">--Choose--</option>
+                <option value="Software Engineering-1">Software Engineering-1</option>
+                <option value="Database Systems-1">Database Systems-1</option>
+                <option value="Web Technology">Web Technology</option>
+                <option value="Data Structures">Data Structures</option>
+                <option value="Discrete Mathematics">Discrete Mathematics</option>
+                <option value="None">None</option>
+        </select>
+        <br>
+        </select>
+        <br> <br>
+        <input type="submit" id="Add_Button" value="Add" onclick="press()">
+        
+        </form>
+    </div>
+    <div id="footer" style=" width: 100%; position: relative; background-color: rgb(182, 46, 73);
+    color: white;font-size:20px;text-align: center;left: 0; bottom: 0; margin-top: auto;">
+        <p style="color: white;font-size:20px;">
+            Address: 5 Dr Ahmed Zewail Street, Postal Code 12613, Orman, Giza, Egypt.<br>
+            If you have any questions,Mail us at e-com adminfci-cu.edu.eg.<br>
+            Facebook:fci@facebook.com<br>
+            Maintained by e-com adminfci-cu.edu.eg.
+    
+        </p>
+    </div>
+</body></html>

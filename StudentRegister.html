@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8"/>
+  <meta name="description" content="Higher Studies"/>
+  <title>Student Registeration</title>
+ 
+    <link rel="stylesheet" href="CSSFils/ProjectCssStudentRegister.css">  
+    <script src="JavaScriptFiles/JavaScriptStuReg.js"></script>
+</head>
+<body>
+  <div  >
+    <img id="logo" src="SourceFiles/Home Page_files/logo.jpg"width="100px"  height="100px" Align="right" 
+    style="margin-bottom: 0;"/>
+      <label id="label_wel"style=" ">Welcome To FCI Higher Studies Website  </label>
+  </div>
+  <div id="header"style="background-color: rgb(182, 46, 73); overflow: hidden; padding-left: 100px; margin-top:50px; ">
+    <a style="text-align: center;padding:10px 10px;font-size: 30px; float: left; color: white; margin: 10px;padding-left: 240px;
+     text-decoration: none;" 
+    href="Home Page.html">Home Page</a>
+
+    <a style="text-align: center;padding:10px 10px;font-size: 30px;; float:left; color: white; margin: 10px ;text-decoration: none;display: block" 
+    href="StudentRegister.html">Student    </a>
+
+    <a style="text-align: center;padding:10px 10px;font-size: 30px; float:left; color: white; margin: 10px ;text-decoration: none; " 
+    href="Addcourse.html">Add </a>
+
+    <a style="text-align: center;padding:10px 10px;font-size: 30px; float:left; color: white; margin: 10px ;text-decoration: none; 
+  " 
+    href="Search.html">Search </a>
+    <a style="text-align: center;padding:10px 10px;font-size: 30px; float:left; color: white; margin: 10px ;text-decoration: none; 
+  " 
+    href="EditPage.html">Edit </a>
+    <a style="text-align: center;padding:10px 10px;font-size: 30px; float: left; color: white; text-decoration: none;;margin: 10px"
+     href="Courses Registeration.html">Register Courses</a>
+     <a style="text-align: center;padding:10px 10px;font-size: 30px; float: left; text-decoration: none;color: white; margin: 10px "
+     href="About.html">About </a>
+     <a style="text-align: center;padding:10px 10px;font-size: 30px; float: left; text-decoration: none;color: white; margin: 10px "
+     href="MainPage.html">Sections </a>
+  
+</div> 
+   
+  <div class="updateDiv" width="100px" height="150px" >
+ <form>
+  <h1><Center>Student's Information</Center></h1>
+   <ul>
+
+   <li>
+    <label>ID: </label>
+    <input type="Text" placeholder="------Enter Your ID------"id="S_ID"onkeyup="validateID()" required>
+    <span id="ID-error"></span>
+    <br><br>
+    </li>
+   <li>
+       <label>Name: </label>
+       <input type="Text" placeholder="--Enter Your Full Name--"id="S_Name" onkeyup="validateName()"required>
+        <span id="name-error"></span>
+       <br><br>
+    </li>  
+   <li>
+       <label>BirthDate: </label>
+       <input type="Date"id="S_Date" onkeyup="validatebirthdate()" required>
+       <span id="birthdate-error"></span>
+       <br><br>
+    </li>
+
+   <li>
+    <label>Gender: </label>
+    <input type="radio" id="male" name="state"value="Male" required>
+    <label for="male" id="m" style="color:white">Male</label>  
+    <input type="radio" id="female" name="state"value="Female" required>
+    <label for="female" id="f" style="color:white">Female</label>
+    <span id="gender-error"></span>
+    <br><br>
+   </li>
+
+   <li>
+        <label>University: </label>
+        <input type="Text" placeholder="--Enter Your University--"id="S_Uni"onkeyup="validateuni()" required>
+        <span id="university-error"></span>
+        <br><br>
+    </li>
+
+   <li>
+    <label>Level: </label>
+    <select id="level_Select" required>
+      <option value="">--Choose--</option>
+      <option value="Level1">Level1</option>
+      <option value="Level2">Level2</option>
+      <option value="Level3">Level3</option>
+      <option value="Level4">Level4</option>
+     </select>
+     <span id="level-error"></span>
+     <br><br>
+  </li>
+
+   <li>
+        <label>Department: </label>
+    <select id="dept_Select"onkeyup="validatedep()" required>
+      <option value="">--Choose--</option>
+      <option value="CS">CS</option>
+      <option value="IS">IS</option>
+      <option value="IT">IT</option>
+      <option value="AI">AI</option>
+      <option value="DS">DS</option>
+      <option value="None">None</option>
+    </select>
+    <span id="department-error"></span>
+    <br><br>
+  </li>
+
+   <li>
+    <label>Status: </label>
+    <select name="Status" id="status_Select" required>
+    <option value="">--Choose--</option>
+    <option value="Active">Active</option>
+    <option value="Inactive">Inactive</option>
+   </select>
+   <span id="status-error"></span>
+  <br><br>
+  </li>
+
+   <li>
+    <label>Course 1: </label>
+    <input type="Text" placeholder="Enter Your First Course"id="course_properity1" onkeyup="validatecourse1()" required>
+    <span id="course1-error"></span>
+   <!-- <i class="fas fa-check-circle"></i>
+    <i class="fas fa-exclamation-circle"></i>
+    <small>Error message</small>-->
+    <br><br>
+    </li>
+    <li>
+     <label>Course 2: </label>
+     <input type="Text" placeholder="Enter Your Second Course"id="course_properity2" onkeyup="validatecourse2()"required>
+     <span id="course2-error"></span>
+     <br><br>
+   </li>
+
+   <li>
+    <label>Course 3: </label>
+    <input type="Text" placeholder="Enter Your Third Course"id="course_properity3" onkeyup="validatecourse3()" required>
+    <i class="fa fa-times u_times"></i>
+     <span id="course3-error"></span>
+    <i class="fa fa-times u_times"></i>
+    <br><br>
+   </li>
+
+</ul>
+<p style="color:white" >*Please Fill All The Required Fields.</p>
+
+
+<input  type="Reset"id="reset_button">
+  <input onclick="return validateform()" type="Submit"id="submit_button" >
+  <span id="submit-error"></span>
+
+ </form>
+</div>
+<div id="footer" style=" width: 100%; position: relative; background-color: rgb(182, 46, 73);
+color: white;font-size:20px;text-align: center;left: 0; bottom: 0; margin-top: auto;">
+    <p style="color: white;font-size:20px;">
+        Address: 5 Dr Ahmed Zewail Street, Postal Code 12613, Orman, Giza, Egypt.<br>
+        If you have any questions,Mail us at e-com adminfci-cu.edu.eg.<br>
+        Facebook:fci@facebook.com<br>
+        Maintained by e-com adminfci-cu.edu.eg.
+
+    </p>
+</div>
+
+ <script src="script.js"></script>
+
+</body>

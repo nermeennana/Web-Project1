@@ -1,0 +1,133 @@
+            body
+            {
+                background-color: white;
+                font-family:Nizar Cocon Kurdish;
+            }
+            form
+            {
+                background-color: rgb(182, 46, 73);
+                border:10px solid rgb(196, 182, 182);
+                width:570px;
+                height: 420px;
+                font-family:Nizar Cocon Kurdish;
+                border-radius: 70px;
+                padding: 80px;
+                margin-left: 500px;
+                margin-top: 100px;
+                margin-right: 100px;
+                margin-bottom: 100px;
+            }
+            h1
+            {
+                position: relative;
+                margin-top: -20px;
+                color:rgb(196, 182, 182);
+
+            }
+            label{
+                color: white;
+                font-family:Nizar Cocon Kurdish ;
+                text-align: left;
+                padding-left: 80px;
+                margin-left: -20px;
+                font-size: 25px;
+            }
+            input{
+                font-family:Nizar Cocon Kurdish;
+            }
+            #S_ID
+            {
+                position: relative;
+                background-color: rgb(196, 182, 182);
+                font-size: 17px;
+                margin-left:135px ;
+            }
+            #S_Name
+            {
+                position: relative;
+                background-color: rgb(196, 182, 182);
+                font-size: 17px;
+                margin-left:98px ;
+            }
+            #course_Select1
+            {
+                position: relative;
+                background-color: rgb(196, 182, 182);
+                font-size: 20px;
+                margin-left:89px ;
+                width:189px ;
+                height: 28px;
+                font-family:Nizar Cocon Kurdish;
+                color:rgb(81, 66, 66);
+                text-align: left;
+            } 
+            #course_Select2
+            {
+                position: relative;
+                background-color: rgb(196, 182, 182);
+                font-size: 20px;
+                margin-left:62px ;
+                width:189px ;
+                height: 28px;
+                font-family:Nizar Cocon Kurdish;
+                color:rgb(81, 66, 66);
+                text-align: left;
+            }
+            #course_Select3
+            {
+                position: relative;
+                background-color: rgb(196, 182, 182);
+                font-size: 20px;
+                margin-left:82px ;
+                width:189px ;
+                height: 28px;
+                font-family:Nizar Cocon Kurdish;
+                color:rgb(81, 66, 66);
+                text-align: left;
+            }
+            #register_Button
+            {
+                position: relative;
+                background-color: rgb(196, 182, 182);
+                font-size: 25px;
+                width:155px;
+                height: 40px;
+                font-family:Nizar Cocon Kurdish;
+                color: rgb(182, 46, 73);
+                text-align: center;
+                border-radius: 15px;
+                margin:5px;
+                margin-top:40px ;
+                margin-left:220px ;
+            }
+            #register_Button:hover{
+                background-color: white;
+            }
+            option
+            {
+                position: relative;
+                background-color: rgb(196, 182, 182);
+                font-size: 17px;
+                margin-left:80px ;
+            }
+                
+            #label_wel
+            {
+                text-align: center;
+                margin-left: 400px;
+                margin-top: 410px;
+                font-size: 50px;
+                font-family:Nizar Cocon Kurdish;
+                color: black;
+                text-shadow: 10px;
+            }
+            #footer {
+                width: 100%;
+                position: relative;
+                background-color: rgb(182, 46, 73);
+                color: white;
+                font-size: 20px;
+                text-align: center;
+                left: 0;
+                margin-top: 500px;
+            }
